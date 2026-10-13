@@ -4,6 +4,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Art Mela Registration | Pahchan Foundation",
   description: "Pahchan Foundation Art Mela participant registration.",
+  icons: {
+    icon: "/pahchan-logo.png",
+    apple: "/pahchan-logo.png",
+  },
 };
 
 const themeColor = "#0d1b2a";

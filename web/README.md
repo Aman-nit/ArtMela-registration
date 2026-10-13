@@ -22,6 +22,8 @@ Set `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` in `.env.loca
 
 Create Supabase Auth users without public signup. Use the internal email convention `{username}@auth.pahchanfoundation.org`, then add matching rows to `public.profiles` with either `ADMIN` or `VOLUNTEER` role.
 
+The login form accepts either the full Supabase Auth email or the username portion. For example, `volunteer1` maps to `volunteer1@auth.pahchanfoundation.org`. If an Auth user was created with a normal email address, enter that complete email address.
+
 When testing from another device on the same LAN, add its host/IP to `ALLOWED_DEV_ORIGINS` in `.env.local` as a comma-separated list, then restart `npm run dev`. This setting is only used by the development server and is ignored in production.
 
 ## Verification

@@ -35,7 +35,7 @@ export default async function LoginPage({ searchParams }: LoginPageProps) {
             <input
               name="username"
               required
-              // placeholder="aman.nit.cse@gmail.com"
+              placeholder="Username or full Auth email"
               autoComplete="username"
               autoCapitalize="none"
               spellCheck={false}

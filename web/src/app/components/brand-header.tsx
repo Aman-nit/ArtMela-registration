@@ -8,7 +8,7 @@ export function BrandHeader() {
         <Link href="/" className="brand" aria-label="Pahchan Foundation home">
           <Image
             className="brand__logo"
-            src="https://www.pahchanfoundation.org/img/Gol%20logo.png"
+            src="/pahchan-logo.png"
             alt="Pahchan Foundation logo"
             width={50}
             height={50}
